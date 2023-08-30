@@ -10,6 +10,6 @@ steps:
     TELEGRAM_CHAT:
       from_secret: TELEGRAM_CHAT
     GITHUB_TOKEN:
-      from_secret: GITHUB_TOKEN
+      from_secret: ${{ secrets.GITHUB_TOKEN }}
   commands:
   - bash ./setup.sh
