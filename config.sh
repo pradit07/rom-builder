@@ -1,19 +1,19 @@
 #!/bin/bash
 
-GITHUB_USER=Akianonymus
-GITHUB_EMAIL=anonymus.aki@gmail.com
+GITHUB_USER=pradit07
+GITHUB_EMAIL=praditdimas@gmail.com
 
-KBUILD_BUILD_USER="Aki"
-KBUILD_BUILD_HOST="A_DEAD_PLANET"
+KBUILD_BUILD_USER="pradit"
+KBUILD_BUILD_HOST="Indonesia_java"
 
-export oem=motorola
-export device=harpia
+export oem=samsung
+export device=star2lte
 
-ROM="PixelExperience"
-manifest_url="https://github.com/PixelExperience/manifest"
+ROM="Rising OS"
+manifest_url="https://github.com/RisingTechOSS/android"
 export rom_vendor_name="aosp" # This represent the nams used by different rom vendors, Ex - aosp_harpia-userdebug, aosp is vendor name.
-branch="pie"
+branch="tiramisu"
 
-release_repo="Akianonymus/harpia_builds"
+release_repo="pradit07/rom-builder"
 
 timezone="Asia/Kolkata"
